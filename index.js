@@ -58,6 +58,7 @@ function removeFromCart(item) {
   //item
   //i want to search the cart/object.itemName and see if it exists
   for (var i = 0; i < cart.length; i++) {
+    JSON.stringify(cart[i])
     if (item === cart[i].itemName) {
       return item.splice(i, 1);
     } else {
