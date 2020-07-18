@@ -42,7 +42,7 @@ function viewCart() {
 
       }
 
-      return `In your cart, you have ${cartList} ${lastItem}`
+      return `In your cart, you have ${cartList}${lastItem}`
     }
 
 
