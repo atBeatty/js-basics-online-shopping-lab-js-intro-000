@@ -49,11 +49,8 @@ function viewCart() {
 function total() {
   // write your code her
   var totalAmount = 0;
-  var priceArray = [];
-  for (var i = 0; i < cart.length; i++) {
-    priceArray.push(cart[i].itemPrice);
-  }
-  for (var j = 0; j < priceArray.length; j++) {
+
+  for (var j = 0; j < cart.length; j++) {
     totalAmount += priceArray[j];
   }
 
