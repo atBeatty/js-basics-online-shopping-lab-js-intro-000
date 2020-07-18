@@ -60,7 +60,7 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
     JSON.stringify(cart[i])
     if (item === cart[i].itemName) {
-      return cart.splice(i, 1);
+      return cart.splice(i, 0);
     } else {
       return `That item is not in your cart.`
 
