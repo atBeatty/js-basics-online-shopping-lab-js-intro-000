@@ -51,7 +51,8 @@ function total() {
   var totalAmount = 0;
 
   for (var j = 0; j < cart.length; j++) {
-    totalAmount += priceArray[j];
+    totalAmount += cart[j].itemPrice;
+    
   }
 
   return totalAmount;
