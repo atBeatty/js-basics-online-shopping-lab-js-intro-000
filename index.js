@@ -18,7 +18,8 @@ function addToCart(item) {
  itemObject.itemPrice = price;
 
  cart.unshift(itemObject);
- 
+
+ return `${item} has been added to your cart.`
 }
 
 function viewCart() {
