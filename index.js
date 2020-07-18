@@ -36,6 +36,7 @@ function viewCart() {
       return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, and ${cart[i+1].itemName} at $${cart[i+1].itemPrice}.`
     } else if (cart.length >= 3) {
       cartList += `${cart[i].itemName} at $${cart[i].itemPrice}.`
+      return `In your cart, you have ${cartList}`
     }
   }
 
