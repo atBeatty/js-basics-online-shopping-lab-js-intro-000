@@ -52,7 +52,7 @@ function total() {
 
   for (var j = 0; j < cart.length; j++) {
     totalAmount += cart[j].itemPrice;
-    
+
   }
 
   return totalAmount;
