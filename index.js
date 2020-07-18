@@ -59,18 +59,34 @@ function total() {
 }
 
 function removeFromCart(item) {
-  //item
-  //i want to search the cart/object.itemName and see if it exists
-  for (var i = 0; i < cart.length; i++) {
-    // JSON.stringify(cart[i])
+
+
+  for (var i = 0; i < cart.length; i++){
     if (item === cart[i].itemName) {
-      cart.splice(i, 1);
+      cart.splice(i, 1); //removes 1 item at index i
       return cart;
-    } else {
-      return `That item is not in your cart.`;
     }
   }
+
+  if (item != cart[item]) {
+    return "That item is not in your cart."
+  }
+
 }
+
+// function removeFromCart(item) {
+//   //item
+//   //i want to search the cart/object.itemName and see if it exists
+//   for (var i = 0; i < cart.length; i++) {
+//     // JSON.stringify(cart[i])
+//     if (item === cart[i].itemName) {
+//       cart.splice(i, 1);
+//       return cart;
+//     } else {
+//       return `That item is not in your cart.`;
+//     }
+//   }
+// }
 
 function placeOrder(cardNumber) {
 
