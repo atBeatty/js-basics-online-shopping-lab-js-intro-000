@@ -39,38 +39,22 @@ function viewCart() {
       for (var i = 0; i < cart.length -1; i++) {
         cartList += `${cart[i].itemName} at $${cart[i].itemPrice}, `
         var lastItem = `and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`;
-
       }
-
       return `In your cart, you have ${cartList}${lastItem}`
     }
-
-
-
-
 }
 
 function total() {
   // write your code her
   var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
-    totalAmount += cart[i].itemPrice
-
+    totalAmount += cart[i].itemPrice;
   }
 
   return totalAmount;
 }
 
 function removeFromCart(item) {
-
-  // write your code here
-  var nameArray =[];
-  for (var i = 0; i < cart.length; i++) {
-    nameArray.push(cart[i].itemName);
-  }
-  var indexOfRemovedItem = nameArray
-  cart.splice(indexOfRemovedItem, 1);
-  return cart
 
 
 }
