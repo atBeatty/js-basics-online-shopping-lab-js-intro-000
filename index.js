@@ -69,7 +69,9 @@ function removeFromCart(item) {
     nameArray.push(cart[i].itemName);
   }
   var indexOfRemovedItem = nameArray
-
+  cart.splice(indexOfRemovedItem, 1);
+  return cart
+  
 
 }
 
