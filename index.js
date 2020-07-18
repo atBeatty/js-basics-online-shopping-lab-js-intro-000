@@ -47,7 +47,7 @@ function total() {
   // write your code her
   var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
-    var currentPrice = cart.itemPrice;
+    var currentPrice = cart[i].itemPrice;
     totalAmount += currentPrice;
   }
 
