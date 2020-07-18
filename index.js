@@ -20,7 +20,8 @@ function addToCart(item) {
 
  cart.unshift(itemObject);
 
- return `${item} has been added to your cart.`
+ return cart
+ console.log(`${item} has been added to your cart.`)
 }
 
 function viewCart() {
