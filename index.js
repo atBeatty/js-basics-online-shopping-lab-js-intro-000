@@ -48,18 +48,18 @@ function total() {
   var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
     var currentPrice = getCart()[i].itemPrice; console.log("I HATE THIS LAB", currentPrice)
-
-
     totalAmount += currentPrice;
-
-    // totalAmount = totalAmount + cart[i].itemPrice;
-
   }
 
   return totalAmount;
 }
 
-function removeFromCart(item) {
+function removeFromCart(item) { 
+  //item
+  //i want to search the cart/object.itemName and see if it exists
+  for (var i = 0; i < cart.length; i++) {
+    
+  }
 
 
 }
