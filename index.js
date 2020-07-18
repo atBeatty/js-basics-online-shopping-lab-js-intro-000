@@ -59,7 +59,7 @@ function removeFromCart(item) {
   //i want to search the cart/object.itemName and see if it exists
   for (var i = 0; i < cart.length; i++) {
     if (item !== cart[i].itemName) {
-      return `That item is not in you cart.`
+      return `That item is not in your cart.`
     }
   }
 
