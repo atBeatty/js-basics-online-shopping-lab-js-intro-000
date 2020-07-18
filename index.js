@@ -38,7 +38,7 @@ function viewCart() {
 
       for (var i = 0; i < cart.length -1; i++) {
         cartList += `${cart[i].itemName} at $${cart[i].itemPrice}, `
-        var lastItem = `and ${cart[cart.length-1].itemName} at $${car[cart.length-1].itemPrice}.`;
+        var lastItem = `and ${cart[cart.length-1].itemName} at $${cart[cart.length-1].itemPrice}.`;
 
       }
 
