@@ -23,9 +23,6 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
-  var cartList = '';
-
 
     if (cart.length < 1) {
       return "Your shopping cart is empty."
@@ -49,7 +46,7 @@ function total() {
   var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
     var currentPrice = getCart()[i].itemPrice; console.log(currentPrice)
-    
+
 
     totalAmount += currentPrice;
 
