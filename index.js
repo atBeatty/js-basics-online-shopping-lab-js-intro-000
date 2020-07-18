@@ -66,7 +66,7 @@ function removeFromCart(item) {
   // write your code here
   var nameArray =[];
   for (var i = 0; i < cart.length; i++) {
-    nameArray[i] = cart[i].itemName;
+    nameArray.push(cart[i].itemName);
   }
   var indexOfRemovedItem = nameArray
 
