@@ -48,7 +48,9 @@ function total() {
   // write your code her
   var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
-    totalAmount += parseInt(cart[i].itemPrice, 10);
+    var currentPrice = cart[i].itemPrice;
+
+    totalAmount += currentPrice;
 
     // totalAmount = totalAmount + cart[i].itemPrice;
 
