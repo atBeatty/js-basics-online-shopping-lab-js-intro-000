@@ -48,7 +48,8 @@ function total() {
   // write your code her
   var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
-    var currentPrice = getCart()[i].itemPrice;
+    var currentPrice = getCart()[i].itemPrice; console.log(currentPrice)
+    
 
     totalAmount += currentPrice;
 
