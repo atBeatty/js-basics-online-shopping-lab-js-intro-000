@@ -20,8 +20,8 @@ function addToCart(item) {
 
  cart.push(itemObject);
 
- console.log(`${item} has been added to your cart.`)
- return cart
+ return console.log(`${item} has been added to your cart.`)
+ // return cart
  
 }
 
