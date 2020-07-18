@@ -23,6 +23,8 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  // write your code here
+  var cartList = '';
 
     if (cart.length < 1) {
       return "Your shopping cart is empty."
