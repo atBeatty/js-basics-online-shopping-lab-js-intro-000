@@ -52,7 +52,7 @@ function viewCart() {
 
 function total() {
   // write your code her
-  var totalAmount;
+  var totalAmount = 0;
   for (var i = 0; i < cart.length; i++) {
     totalAmount += cart[i].itemPrice
 
@@ -71,7 +71,7 @@ function removeFromCart(item) {
   var indexOfRemovedItem = nameArray
   cart.splice(indexOfRemovedItem, 1);
   return cart
-  
+
 
 }
 
