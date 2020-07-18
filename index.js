@@ -32,15 +32,15 @@ function viewCart() {
   //   } else if (cart.length === 1) {
   //     return `In your cart, you have, ${}`
   //   } else if (cart.length === 2) {
-  // 
+  //
   //   } else if (cart.length >= 3) {
-  // 
+  //
   //   }
   // }
   for (var i = 0; i < cart.length; i++) {
     `In your cart, you have bananas at $17.`
   }
-  
+
 }
 
 function total() {
