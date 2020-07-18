@@ -54,11 +54,11 @@ function total() {
   return totalAmount;
 }
 
-function removeFromCart(item) { 
+function removeFromCart(item) {
   //item
   //i want to search the cart/object.itemName and see if it exists
   for (var i = 0; i < cart.length; i++) {
-    
+
   }
 
 
