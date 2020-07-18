@@ -95,8 +95,13 @@ function placeOrder(cardNumber) {
     purchaseMsg = `Sorry, we don't have a credit card on file for you.`
     // return "Sorry, we don't have a credit card on file for you."
   } else {
-    return `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
+    purchaseMsg = `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
+    // return `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
+    cart = [];
   }
+
+  return purchaseMsg;
+
 
 
   // write your code here
